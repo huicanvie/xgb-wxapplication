@@ -132,3 +132,12 @@
 .container .feed-item .feed-content .answer-actions .dot ::after{
   content: "•";
 }
+.tip{
+  border:1px solid #F2DAD7;
+  border-radius: 4rpx;
+  color:#F2DAD7;
+  font-size:20rpx;
+  display:inline-block;
+  padding:1rpx;
+  margin:2rpx;
+}
