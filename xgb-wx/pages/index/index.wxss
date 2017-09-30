@@ -41,31 +41,7 @@
 .container{
   padding: 0;
   font-size: 14rpx;
-  background: #fff;
+  background: #F0F4F3;
   color: #000;
 }
 /*feed-item part is in app.wxss for multiplexing*/
-
-.list .list__item{
-     color:#999;
-     margin:2rpx;
-     font-size:20rpx;
-     word-break: break-all;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    padding-left:15rpx;
-    position:relative;
-}
-.list .list__item:before{
-    content:'';
-    width:10rpx;
-    height:10rpx;
-    display: block;
-    position:absolute;
-    border-radius: 0.5;
-    background: red;
-    top:50%;
-    left:1rpx;
-     margin-top:-5rpx;
-}

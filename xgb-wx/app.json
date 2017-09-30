@@ -7,8 +7,8 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#E6AAB8",
-    "navigationBarTitleText": "练习",
+    "navigationBarBackgroundColor": "#d81e06",
+    "navigationBarTitleText": "这个很有意思",
     "navigationBarTextStyle":"white",
     "enablePullDownRefresh":true
   },
@@ -19,19 +19,19 @@
     "borderStyle": "white",
     "list": [{
       "pagePath": "pages/index/index",
-      "text": "圈子",
+      "text": "段子",
       "iconPath": "icon/iText.png",
       "selectedIconPath": "icon/iText_p.png"
     },
     {
       "pagePath": "pages/video/video",
-      "text": "日记",
+      "text": "视频",
       "iconPath": "icon/iVideo.png",
       "selectedIconPath": "icon/iVideo_p.png"
     },
     {
       "pagePath": "pages/pics/pics",
-      "text": "我的",
+      "text": "趣图",
       "iconPath": "icon/iPic.png",
       "selectedIconPath": "icon/iPic_p.png"
     }
