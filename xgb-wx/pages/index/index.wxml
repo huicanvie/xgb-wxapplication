@@ -1,6 +1,21 @@
 
 <!--index.wxml-->
 <scroll-view scroll-y="true" class="container" lower-threshold="5" bindscrolltolower="lower">
+   <view style="flex-direction:row;clear:both;display:block;height:200rpx;padding:10px">
+     <view style="width:30%;height:200rpx;float:left;">
+       <image style="width:100%;height:200rpx;" src="../../icon/demo1.png"></image>
+     </view>
+     <view style="flex-direction:column;float:left;padding-left:20rpx;width:70%;box-sizing: border-box;;">
+        <view><text style="font-size:30rpx;">长沙圈子</text></view>
+        <view>
+          <text class="tip">推荐</text>
+        </view>
+        <view class="list">
+           <view class="list__item">黑客天才黑客天才黑客天才黑客天才黑客天才黑客天才</view>
+           <view class="list__item">黑客天才黑客天才黑客天才黑客天才黑客天才黑客天才</view>
+        </view>
+     </view>
+   </view>
     <block wx:for="{{jokes}}">
         <view class="feed-item">
             <view class="feed-source">
