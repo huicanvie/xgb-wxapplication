@@ -1,0 +1,8 @@
+<!--diaryText.wxml-->
+<view class='block'>
+<view class='block__edit'>
+  <textarea class='fsize30'></textarea>
+</view>
+ 
+ <view class='block__num fsize30'>0/2000</view>
+</view>

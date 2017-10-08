@@ -6,9 +6,37 @@ var curPage = 1;
 var isPullDownRefreshing = false;
 Page({
   data: {
-    motto: 'Hello World',
     userInfo: {},
-    jokes :{}
+    items :[
+      {
+        id:1,
+        name: '长沙孕妈帮',
+        lists: [
+          {
+            id:10,
+            title: '黑客天才黑客天才黑客天才黑客天才黑客天才黑客天才'
+          },
+          {
+            id: 11,
+            title: '黑客天才黑客天才黑客天才黑客天才黑客天才黑客天才'
+          }
+        ]
+      },
+      {
+        id: 2,
+        name: '辣妈帮',
+        lists: [
+          {
+            id: 10,
+            title: '又一个辣妈'
+          },
+          {
+            id: 11,
+            title: '辣妈养成记'
+          }
+        ]
+      }
+    ]
   },
 
   lower:function(){
@@ -19,9 +47,14 @@ Page({
   onLoad: function () {
     console.log('onLoad')
     var that = this
-    this.fetchJoke();
+    //this.fetchJoke();
 
 
+  },
+  bindTapTeam () {
+     wx.navigateTo({
+       url: '../team/team',
+     })
   },
   onPullDownRefresh:function(){
     console.log('onPullDownRefresh...');

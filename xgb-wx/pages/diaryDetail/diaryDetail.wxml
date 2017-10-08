@@ -1,0 +1,36 @@
+<!--diaryDetail.wxml-->
+<view class='cover'>
+  <image wx:if="{{headPhoto != ''}}" 
+         src="{{headPhoto}}" 
+         mode='aspectFill'></image>
+  <view class='cover__title'>
+    点击设置标题
+  </view>
+</view>
+<view class='operation'>
+  <view class='operation__item' bindtap='bindTapDisplayOpr' 
+         hidden='{{addVisible == false}}'>
+    <view class='operation__add'>+</view>
+  </view>
+  <view class='operation__item' 
+        hidden="{{oprVisible == false}}">
+    <view class='operation__add__list' >
+     <image src='../../icon/text.png' mode='widthFix'></image>
+     <image src='../../icon/photo.png' mode='widthFix'></image>
+     <image src='../../icon/video.png' mode='widthFix'></image>
+   </view>
+  </view> 
+   
+</view>
+<view class='diaryItem'>
+  <view>
+    <image wx:if="{{photos[0] != ''}}" 
+           src='{{photos[0]}}' 
+           mode='scaleToFill'></image>
+  </view>
+  <view bindtap='bindTapEditText'>
+    <text class='fsize20'>点击添加文字</text>
+  </view>
+</view>
+
+<view class='submit'>完成</view>

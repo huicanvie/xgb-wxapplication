@@ -1,44 +1,49 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/pics/pics",
     "pages/video/video",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/team/team",
+    "pages/diary/diary",
+    "pages/diaryDetail/diaryDetail",
+    "pages/diaryText/diaryText"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#E6AAB8",
-    "navigationBarTitleText": "练习",
-    "navigationBarTextStyle":"white",
-    "enablePullDownRefresh":true
+    "navigationBarTitleText": "小乖宝",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
-    "color": "#626567",
-    "selectedColor": "#2A8CE5",
+    "color": "#ccc",
+    "selectedColor": "#E6AAB8",
     "backgroundColor": "#FBFBFB",
     "borderStyle": "white",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "圈子",
-      "iconPath": "icon/iText.png",
-      "selectedIconPath": "icon/iText_p.png"
-    },
-    {
-      "pagePath": "pages/video/video",
-      "text": "日记",
-      "iconPath": "icon/iVideo.png",
-      "selectedIconPath": "icon/iVideo_p.png"
-    },
-    {
-      "pagePath": "pages/pics/pics",
-      "text": "我的",
-      "iconPath": "icon/iPic.png",
-      "selectedIconPath": "icon/iPic_p.png"
-    }
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "圈子",
+        "iconPath": "icon/find_blur.png",
+        "selectedIconPath": "icon/find_focus.png"
+      },
+      {
+        "pagePath": "pages/diary/diary",
+        "text": "日记",
+        "iconPath": "icon/add_blur.png",
+        "selectedIconPath": "icon/add_focus.png"
+      },
+      {
+        "pagePath": "pages/pics/pics",
+        "text": "我的",
+        "iconPath": "icon/mine_blur.png",
+        "selectedIconPath": "icon/mine_focus.png"
+      }
     ]
   },
   "networkTimeout": {
     "request": 10000
   },
-  "debug":true
+  "debug": true
 }

@@ -1,0 +1,15 @@
+<!--diary.wxml-->
+<view class='top'>
+   <view>记下每一天的美好</view>
+   <view class='fsize25'>可以上传美照和视频哦</view>
+</view>
+<view class='opr'>
+    <view>
+      <image mode='widthFix' 
+             src='../../icon/add_focus.png'
+             bindtap='bindTapSelPhoto'></image>
+    </view>
+    <view>
+       添加照片
+    </view>
+</view>

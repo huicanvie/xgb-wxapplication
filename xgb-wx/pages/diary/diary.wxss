@@ -1,0 +1,18 @@
+/* diary.wxss */
+.top{
+  text-align: center;
+  padding:60rpx 0;
+}
+.opr{
+  margin:20rpx;
+  padding:40rpx 0;
+  border:1rpx solid #e1e1e1;
+  border-radius: 20rpx;
+  background: #f3f3f3;
+}
+.opr image{
+  width:120rpx;
+}
+.opr view{
+  text-align: center;
+}

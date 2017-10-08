@@ -1,0 +1,70 @@
+/* diaryDetail.wxss */
+page{
+  background: #efefef;
+}
+.cover{
+  height: 200rpx;
+  position: relative;
+}
+.cover image{
+  widows: 100%;
+  height: 200rpx;
+}
+.cover__title{
+  color:#fff;
+  font-size: 35rpx;
+  position: absolute;
+  top:10rpx;
+  left:10rpx;
+}
+.operation{
+  text-align: center;
+  margin:20rpx 0;
+}
+.operation .operation__item view{
+  display: inline-block;
+  padding:10rpx 20rpx;
+}
+.operation__add__list{
+  background: #fff;
+  height: 60rpx;
+  box-sizing: border-box;
+  border-radius: 20rpx;
+}
+.operation__add{
+  color:#fff;
+  padding:5rpx 20rpx !important;
+  background: #ccc;
+  border-radius: 20rpx;
+  line-height: 1;
+}
+.operation__add__list image{
+  width: 40rpx;
+  margin: 0 20rpx
+}
+.diaryItem{
+  background: #fff;
+  margin:20rpx;
+  border:1rpx solid #e1e1e1;
+   height:200rpx; 
+  border-radius: 20rpx;
+  display: flex;
+}
+.diaryItem>view:last-child{
+  flex: 1;
+}
+.diaryItem image{
+  width:180rpx;
+  height: 180rpx;
+  padding: 10rpx;
+}
+.submit{
+  color:#fff;
+  background: #20A0FF;
+  padding: 20rpx;
+  text-align: center;
+  font-size: 35rpx;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
